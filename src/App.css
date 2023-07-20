@@ -1,0 +1,165 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.my-card {
+    width: 18rem;
+    transition: 0.3s ease;
+}
+
+.my-card:hover {
+    transform: translate(0px, -2px);
+}
+
+.my-toggler {
+    margin-right: 2rem;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 620px) {
+    .my-card {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .my-card {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 408px) {
+    .my-card {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 307px) {
+    #mania-text {
+        display: none;
+    }
+
+    .my-toggler {
+        margin-right: 1rem;
+    }
+}
+
+.fixed-nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 2;
+}
+
+.no-space {
+    height: 66px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.dark-mode {
+    margin-right: 2rem;
+}
+
+.dark-form {
+    margin: 1rem 0rem;
+}
+
+.movie-container {
+    max-width: 100vw;
+    margin: 0;
+}
+
+.background {
+    min-height: calc(100vh - 66px);
+}
+
+.det-contain {
+    min-height: calc(100vh - 201px);
+}
+
+.det-contain-search {
+    min-height: calc(100vh - 196px);
+}
+
+.det-card {
+    width: 22rem;
+}
+
+.t-underline {
+    text-decoration: underline;
+}
+
+.fit-content {
+    height: fit-content;
+}
+
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.filter-button {
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #1358c3;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+    box-shadow: none;
+}
+
+.filter-btns {
+    background-color: #2196ad;
+}
+
+.filter-btns:hover {
+    background-color: #0987a1;
+}
+
+#spinner-img {
+    margin: 1rem 0rem;
+    height: 4rem;
+}
+
+
+#notFound {
+    font-size: 36px;
+    color: #FF0000;
+}
+
+.error-p {
+    font-size: 18px;
+    color: #444;
+}
+
+#error-home {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#error-home:hover {
+    text-decoration: underline;
+}
+
+.error-container {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 2px;
+}
